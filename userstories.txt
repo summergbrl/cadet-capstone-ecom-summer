@@ -86,6 +86,20 @@ Acceptance Criteria:
 - User is emailed an order confirmation with the order number, items purchased, and shipping details.
 - Order confirmation page includes a summary of the order.
 
+> As a User, I want to track my order in real-time so that I can know the status and estimated delivery time.
+Acceptance Criteria:
+
+- Order tracking information is updated in real-time based on the shipping carrier's API.
+- Users receive notifications (email, SMS, or app) at key stages of order processing (e.g., shipped, out for delivery, delivered).
+- Tracking details are accessible from the order history page.
+
+> As a User, I want to enable two-factor authentication for my account so that I can enhance the security of my personal information.
+Acceptance Criteria:
+-Users can opt-in for 2FA during account registration or from their account settings.
+- 2FA can be implemented using SMS or authenticator apps.
+- Users are prompted for a verification code in addition to their password when logging in if 2FA is enabled.
+- An option to disable 2FA is available with a confirmation process.
+
 > As a User, I want to view my order history so that I can track past purchases.
 Acceptance Criteria:
 - User can access their order history from the account dashboard.
@@ -186,6 +200,13 @@ Acceptance Criteria:
 - Merchant can set rules for how inventory updates are handled (e.g., priority, frequency).
 - System logs and notifies the merchant of any sync issues or errors.
 - Merchant can manually trigger inventory sync if needed.
+
+> As a Merchant, I want to prevent fraudulent transactions so that my business is protected from chargebacks and losses.
+Acceptance Criteria:
+
+- System automatically flags transactions that meet certain fraud risk criteria (high order value, mismatched shipping and billing addresses).
+- Merchants receive alerts for potential fraud cases and can review flagged orders.
+- System logs all fraudulent transaction attempts for further analysis.
 
 - API for Merchant
 
