@@ -85,13 +85,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 =======
 =======
->>>>>>> 74e00730de0cfc2740c57387aa1e1f58d8292012
+ 74e00730de0cfc2740c57387aa1e1f58d8292012
 
 # cadet-capstone-ecom
 Capstone Ecom Project of Xpay Cadets
 
 - Fork this repository with your own github account before making a PR pointing back to main.
 <<<<<<< HEAD
->>>>>>> 74e00730de0cfc2740c57387aa1e1f58d8292012
+ 74e00730de0cfc2740c57387aa1e1f58d8292012
 =======
->>>>>>> 74e00730de0cfc2740c57387aa1e1f58d8292012
+ 74e00730de0cfc2740c57387aa1e1f58d8292012
